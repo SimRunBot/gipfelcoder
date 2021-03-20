@@ -7,11 +7,13 @@
 ## TODO
 C1 (Simon)
 C2 (Philipp)
-
+Draft hand in 10am
+Draft hand in at 17pm
 ##
 compare stats of route to other climbers 
 geschwindigkeit (dauer )
 average values 
+
 ## Libraries used:
 
 ## Create React App
