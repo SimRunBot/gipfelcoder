@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/gipfelcoder/static/css/main.9d5b29c0.chunk.css",
-    "main.js": "/gipfelcoder/static/js/main.abf3323b.chunk.js",
-    "main.js.map": "/gipfelcoder/static/js/main.abf3323b.chunk.js.map",
-    "runtime-main.js": "/gipfelcoder/static/js/runtime-main.88fb9bda.js",
-    "runtime-main.js.map": "/gipfelcoder/static/js/runtime-main.88fb9bda.js.map",
-    "static/js/2.c6fa1eae.chunk.js": "/gipfelcoder/static/js/2.c6fa1eae.chunk.js",
-    "static/js/2.c6fa1eae.chunk.js.map": "/gipfelcoder/static/js/2.c6fa1eae.chunk.js.map",
-    "static/js/3.cd103056.chunk.js": "/gipfelcoder/static/js/3.cd103056.chunk.js",
-    "static/js/3.cd103056.chunk.js.map": "/gipfelcoder/static/js/3.cd103056.chunk.js.map",
+    "main.css": "/gipfelcoder/static/css/main.1ec79f0d.chunk.css",
+    "main.js": "/gipfelcoder/static/js/main.5811968d.chunk.js",
+    "main.js.map": "/gipfelcoder/static/js/main.5811968d.chunk.js.map",
+    "runtime-main.js": "/gipfelcoder/static/js/runtime-main.b2875ba6.js",
+    "runtime-main.js.map": "/gipfelcoder/static/js/runtime-main.b2875ba6.js.map",
+    "static/js/2.f78430c3.chunk.js": "/gipfelcoder/static/js/2.f78430c3.chunk.js",
+    "static/js/2.f78430c3.chunk.js.map": "/gipfelcoder/static/js/2.f78430c3.chunk.js.map",
+    "static/js/3.4582e9c8.chunk.js": "/gipfelcoder/static/js/3.4582e9c8.chunk.js",
+    "static/js/3.4582e9c8.chunk.js.map": "/gipfelcoder/static/js/3.4582e9c8.chunk.js.map",
     "index.html": "/gipfelcoder/index.html",
-    "static/css/main.9d5b29c0.chunk.css.map": "/gipfelcoder/static/css/main.9d5b29c0.chunk.css.map",
-    "static/js/2.c6fa1eae.chunk.js.LICENSE.txt": "/gipfelcoder/static/js/2.c6fa1eae.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/gipfelcoder/static/media/logo.6ce24c58.svg"
+    "static/css/main.1ec79f0d.chunk.css.map": "/gipfelcoder/static/css/main.1ec79f0d.chunk.css.map",
+    "static/js/2.f78430c3.chunk.js.LICENSE.txt": "/gipfelcoder/static/js/2.f78430c3.chunk.js.LICENSE.txt",
+    "static/media/Straight Wall (vertical).e535f08d.mp4": "/gipfelcoder/static/media/Straight Wall (vertical).e535f08d.mp4"
   },
   "entrypoints": [
-    "static/js/runtime-main.88fb9bda.js",
-    "static/js/2.c6fa1eae.chunk.js",
-    "static/css/main.9d5b29c0.chunk.css",
-    "static/js/main.abf3323b.chunk.js"
+    "static/js/runtime-main.b2875ba6.js",
+    "static/js/2.f78430c3.chunk.js",
+    "static/css/main.1ec79f0d.chunk.css",
+    "static/js/main.5811968d.chunk.js"
   ]
 }
