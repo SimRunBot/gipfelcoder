@@ -7,12 +7,17 @@
 ## TODO
 C1 (Simon) \
 C2 (Philipp) \
-Draft hand in 10am \
-Draft hand in at 17pm \
-##
-compare stats of route to other climbers 
-geschwindigkeit (dauer )
-average values 
+C3 \
+C4 \
+C5 \
+Draft hand in 10am sat\
+Draft hand in at 17pm sat\
+Final submission 10am sun \
+## further feature ideas
+compare stats of route to other climbers  \
+geschwindigkeit (dauer ) \
+average values  \
+NFC linking with climbing route  \
 
 ## Libraries used:
 
