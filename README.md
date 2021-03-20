@@ -5,10 +5,10 @@
 ![ideasketch](ideasketch.png)
 
 ## TODO
-C1 (Simon) /
-C2 (Philipp) /
-Draft hand in 10am /
-Draft hand in at 17pm /
+C1 (Simon) \
+C2 (Philipp) \
+Draft hand in 10am \
+Draft hand in at 17pm \
 ##
 compare stats of route to other climbers 
 geschwindigkeit (dauer )
@@ -20,8 +20,8 @@ average values
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
 
 ## How to run locally
-clone to local directory /
-In the project directory, you can run: /
+clone to local directory \
+In the project directory, you can run: \
 
 ### `npm start`
 
