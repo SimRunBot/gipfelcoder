@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/gipfelcoder/static/css/main.9d5b29c0.chunk.css",
+    "main.js": "/gipfelcoder/static/js/main.abf3323b.chunk.js",
+    "main.js.map": "/gipfelcoder/static/js/main.abf3323b.chunk.js.map",
+    "runtime-main.js": "/gipfelcoder/static/js/runtime-main.88fb9bda.js",
+    "runtime-main.js.map": "/gipfelcoder/static/js/runtime-main.88fb9bda.js.map",
+    "static/js/2.c6fa1eae.chunk.js": "/gipfelcoder/static/js/2.c6fa1eae.chunk.js",
+    "static/js/2.c6fa1eae.chunk.js.map": "/gipfelcoder/static/js/2.c6fa1eae.chunk.js.map",
+    "static/js/3.cd103056.chunk.js": "/gipfelcoder/static/js/3.cd103056.chunk.js",
+    "static/js/3.cd103056.chunk.js.map": "/gipfelcoder/static/js/3.cd103056.chunk.js.map",
+    "index.html": "/gipfelcoder/index.html",
+    "static/css/main.9d5b29c0.chunk.css.map": "/gipfelcoder/static/css/main.9d5b29c0.chunk.css.map",
+    "static/js/2.c6fa1eae.chunk.js.LICENSE.txt": "/gipfelcoder/static/js/2.c6fa1eae.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/gipfelcoder/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.88fb9bda.js",
+    "static/js/2.c6fa1eae.chunk.js",
+    "static/css/main.9d5b29c0.chunk.css",
+    "static/js/main.abf3323b.chunk.js"
+  ]
+}
