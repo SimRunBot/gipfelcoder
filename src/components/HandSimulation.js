@@ -14,9 +14,10 @@ function HandSimulation() {
   }
   
   return (
-    <>
+    <div 
+      className="HandSimulation-Container">
       <Sketch setup={setup} draw={draw} />
-    </>
+    </div>
   );
 }
 

@@ -8,6 +8,9 @@ import traverse from "./data/traverse/Traverse (horizontal).mp4";
 
 import VideoSelection from "./components/VideoSelection.js";
 import HandSimulation from "./components/HandSimulation.js";
+import HeightIndicator from "./components/HeightIndicator.js";
+import MoveIndicator from "./components/MoveIndicator.js";
+
 
 function App() {
   /* der time state ist TimeSynchro auf der skizze */
@@ -51,14 +54,19 @@ function App() {
             onProgress={syncT}/>
       </div>
 
+      <VideoSelection
+        handleVideoChange={handleVideoChange}
+      />
+            
+      <MoveIndicator />
+
+      <HeightIndicator />
+
       <HandSimulation 
         videoOption={videoOption}
         time={time}
         />
 
-      <VideoSelection
-        handleVideoChange={handleVideoChange}
-      />
 
     </div>
   );
