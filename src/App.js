@@ -1,23 +1,36 @@
 
 import './App.css';
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import ReactPlayer from 'react-player'
-import Video from "./data/vertical/Straight Wall (vertical).mp4";
-/* other 2 videos: */
-// ./data/overhang/Overhang (vertical + horizontal).mp4
-// ./data/traverse/Traverse (horizontal).mp4
+import vertical from "./data/vertical/Straight Wall (vertical).mp4";
+import overhang from "./data/overhang/Overhang (vertical + horizontal).mp4";
+import traverse from "./data/traverse/Traverse (horizontal).mp4";
+
+import VideoSelection from "./components/VideoSelection.js";
 
 function App() {
   /* time state ist unser TimeSynchro auf der skizze */
   const [time,setTime] = useState(0);
-  const [videoFilePath,setVideoFilePath] = useState(Video); 
-  
+  const [videoFilePath,setVideoFilePath] = useState(vertical); 
+
+
   function syncT(newtime){
     setTime(newtime.playedSeconds);
   }
 
   function handleVideoChange(event){
-    /* TODO implement video changing via buttons */
+    switch(event.target.value){
+      case "vertical":
+        setVideoFilePath(vertical);
+        break;
+      case "traverse":
+        setVideoFilePath(traverse);
+        break;
+      case "overhang":
+        setVideoFilePath(overhang);
+        break;
+    }
+
   }
 
   return (
@@ -33,10 +46,9 @@ function App() {
             onProgress={syncT}/>
       </div>
 
-      <div
-        className="C2-container">
-          {/* Hier cann C2 component dann hin  */}
-      </div>
+      <VideoSelection
+        handleVideoChange={handleVideoChange}
+      />
 
     </div>
   );
