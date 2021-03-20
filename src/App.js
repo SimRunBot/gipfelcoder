@@ -7,12 +7,14 @@ import overhang from "./data/overhang/Overhang (vertical + horizontal).mp4";
 import traverse from "./data/traverse/Traverse (horizontal).mp4";
 
 import VideoSelection from "./components/VideoSelection.js";
+import HandSimulation from "./components/HandSimulation.js";
 
 function App() {
-  /* time state ist unser TimeSynchro auf der skizze */
+  /* der time state ist TimeSynchro auf der skizze */
   const [time,setTime] = useState(0);
   const [videoFilePath,setVideoFilePath] = useState(vertical); 
-
+  /* videooption state zum wechseln der 3 daten/videos */
+  const [videoOption,setVideoOption] = useState("vertical"); 
 
   function syncT(newtime){
     setTime(newtime.playedSeconds);
@@ -22,12 +24,15 @@ function App() {
     switch(event.target.value){
       case "vertical":
         setVideoFilePath(vertical);
+        setVideoOption("vertical");
         break;
       case "traverse":
         setVideoFilePath(traverse);
+        setVideoOption("traverse");
         break;
       case "overhang":
         setVideoFilePath(overhang);
+        setVideoOption("overhang");
         break;
     }
 
@@ -45,6 +50,11 @@ function App() {
             controls={true}
             onProgress={syncT}/>
       </div>
+
+      <HandSimulation 
+        videoOption={videoOption}
+        time={time}
+        />
 
       <VideoSelection
         handleVideoChange={handleVideoChange}
