@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/gipfelcoder/static/css/main.1ec79f0d.chunk.css",
-    "main.js": "/gipfelcoder/static/js/main.5989fa2b.chunk.js",
-    "main.js.map": "/gipfelcoder/static/js/main.5989fa2b.chunk.js.map",
-    "runtime-main.js": "/gipfelcoder/static/js/runtime-main.c2e12800.js",
-    "runtime-main.js.map": "/gipfelcoder/static/js/runtime-main.c2e12800.js.map",
-    "static/js/2.c0637b13.chunk.js": "/gipfelcoder/static/js/2.c0637b13.chunk.js",
-    "static/js/2.c0637b13.chunk.js.map": "/gipfelcoder/static/js/2.c0637b13.chunk.js.map",
-    "static/js/3.1868afe8.chunk.js": "/gipfelcoder/static/js/3.1868afe8.chunk.js",
-    "static/js/3.1868afe8.chunk.js.map": "/gipfelcoder/static/js/3.1868afe8.chunk.js.map",
+    "main.css": "/gipfelcoder/static/css/main.ab12cd46.chunk.css",
+    "main.js": "/gipfelcoder/static/js/main.4032206d.chunk.js",
+    "main.js.map": "/gipfelcoder/static/js/main.4032206d.chunk.js.map",
+    "runtime-main.js": "/gipfelcoder/static/js/runtime-main.27edb42a.js",
+    "runtime-main.js.map": "/gipfelcoder/static/js/runtime-main.27edb42a.js.map",
+    "static/js/2.60aa893d.chunk.js": "/gipfelcoder/static/js/2.60aa893d.chunk.js",
+    "static/js/2.60aa893d.chunk.js.map": "/gipfelcoder/static/js/2.60aa893d.chunk.js.map",
+    "static/js/3.7eafb720.chunk.js": "/gipfelcoder/static/js/3.7eafb720.chunk.js",
+    "static/js/3.7eafb720.chunk.js.map": "/gipfelcoder/static/js/3.7eafb720.chunk.js.map",
     "index.html": "/gipfelcoder/index.html",
-    "static/css/main.1ec79f0d.chunk.css.map": "/gipfelcoder/static/css/main.1ec79f0d.chunk.css.map",
-    "static/js/2.c0637b13.chunk.js.LICENSE.txt": "/gipfelcoder/static/js/2.c0637b13.chunk.js.LICENSE.txt",
+    "static/css/main.ab12cd46.chunk.css.map": "/gipfelcoder/static/css/main.ab12cd46.chunk.css.map",
+    "static/js/2.60aa893d.chunk.js.LICENSE.txt": "/gipfelcoder/static/js/2.60aa893d.chunk.js.LICENSE.txt",
     "static/media/Overhang (vertical + horizontal).01f5e8ca.mp4": "/gipfelcoder/static/media/Overhang (vertical + horizontal).01f5e8ca.mp4",
     "static/media/Straight Wall (vertical).e535f08d.mp4": "/gipfelcoder/static/media/Straight Wall (vertical).e535f08d.mp4",
     "static/media/Traverse (horizontal).fa4d4c2a.mp4": "/gipfelcoder/static/media/Traverse (horizontal).fa4d4c2a.mp4"
   },
   "entrypoints": [
-    "static/js/runtime-main.c2e12800.js",
-    "static/js/2.c0637b13.chunk.js",
-    "static/css/main.1ec79f0d.chunk.css",
-    "static/js/main.5989fa2b.chunk.js"
+    "static/js/runtime-main.27edb42a.js",
+    "static/js/2.60aa893d.chunk.js",
+    "static/css/main.ab12cd46.chunk.css",
+    "static/js/main.4032206d.chunk.js"
   ]
 }
