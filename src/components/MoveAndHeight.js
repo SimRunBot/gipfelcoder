@@ -21,11 +21,11 @@ function MoveAndHeight(props) {
         break;
 
       case "traverse":
-        console.log(traverseMoves);
+        //console.log(traverseMoves);
         break;
 
       case "overhang":
-        console.log(overhangMoves);
+        //console.log(overhangMoves);
         break;
     }
   }
