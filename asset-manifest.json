@@ -1,25 +1,29 @@
 {
   "files": {
     "main.css": "/gipfelcoder/static/css/main.ab12cd46.chunk.css",
-    "main.js": "/gipfelcoder/static/js/main.4032206d.chunk.js",
-    "main.js.map": "/gipfelcoder/static/js/main.4032206d.chunk.js.map",
-    "runtime-main.js": "/gipfelcoder/static/js/runtime-main.27edb42a.js",
-    "runtime-main.js.map": "/gipfelcoder/static/js/runtime-main.27edb42a.js.map",
-    "static/js/2.60aa893d.chunk.js": "/gipfelcoder/static/js/2.60aa893d.chunk.js",
-    "static/js/2.60aa893d.chunk.js.map": "/gipfelcoder/static/js/2.60aa893d.chunk.js.map",
-    "static/js/3.7eafb720.chunk.js": "/gipfelcoder/static/js/3.7eafb720.chunk.js",
-    "static/js/3.7eafb720.chunk.js.map": "/gipfelcoder/static/js/3.7eafb720.chunk.js.map",
+    "main.js": "/gipfelcoder/static/js/main.4f2b6c54.chunk.js",
+    "main.js.map": "/gipfelcoder/static/js/main.4f2b6c54.chunk.js.map",
+    "runtime-main.js": "/gipfelcoder/static/js/runtime-main.a2a6f07d.js",
+    "runtime-main.js.map": "/gipfelcoder/static/js/runtime-main.a2a6f07d.js.map",
+    "static/js/2.08651782.chunk.js": "/gipfelcoder/static/js/2.08651782.chunk.js",
+    "static/js/2.08651782.chunk.js.map": "/gipfelcoder/static/js/2.08651782.chunk.js.map",
+    "static/js/3.b74f9cb6.chunk.js": "/gipfelcoder/static/js/3.b74f9cb6.chunk.js",
+    "static/js/3.b74f9cb6.chunk.js.map": "/gipfelcoder/static/js/3.b74f9cb6.chunk.js.map",
     "index.html": "/gipfelcoder/index.html",
     "static/css/main.ab12cd46.chunk.css.map": "/gipfelcoder/static/css/main.ab12cd46.chunk.css.map",
-    "static/js/2.60aa893d.chunk.js.LICENSE.txt": "/gipfelcoder/static/js/2.60aa893d.chunk.js.LICENSE.txt",
+    "static/js/2.08651782.chunk.js.LICENSE.txt": "/gipfelcoder/static/js/2.08651782.chunk.js.LICENSE.txt",
+    "static/media/15803_Kung_Fu_Hand_v1.6b94fb90.obj": "/gipfelcoder/static/media/15803_Kung_Fu_Hand_v1.6b94fb90.obj",
     "static/media/Overhang (vertical + horizontal).01f5e8ca.mp4": "/gipfelcoder/static/media/Overhang (vertical + horizontal).01f5e8ca.mp4",
     "static/media/Straight Wall (vertical).e535f08d.mp4": "/gipfelcoder/static/media/Straight Wall (vertical).e535f08d.mp4",
-    "static/media/Traverse (horizontal).fa4d4c2a.mp4": "/gipfelcoder/static/media/Traverse (horizontal).fa4d4c2a.mp4"
+    "static/media/Traverse (horizontal).fa4d4c2a.mp4": "/gipfelcoder/static/media/Traverse (horizontal).fa4d4c2a.mp4",
+    "static/media/overhang_roll_pitch.9b37f216.csv": "/gipfelcoder/static/media/overhang_roll_pitch.9b37f216.csv",
+    "static/media/traverse_roll_pitch.e65f1095.csv": "/gipfelcoder/static/media/traverse_roll_pitch.e65f1095.csv",
+    "static/media/vertical_roll_pitch.c1f12ac8.csv": "/gipfelcoder/static/media/vertical_roll_pitch.c1f12ac8.csv"
   },
   "entrypoints": [
-    "static/js/runtime-main.27edb42a.js",
-    "static/js/2.60aa893d.chunk.js",
+    "static/js/runtime-main.a2a6f07d.js",
+    "static/js/2.08651782.chunk.js",
     "static/css/main.ab12cd46.chunk.css",
-    "static/js/main.4032206d.chunk.js"
+    "static/js/main.4f2b6c54.chunk.js"
   ]
 }
