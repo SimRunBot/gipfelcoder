@@ -1,6 +1,7 @@
 .App {
   text-align: center;
-  
+  padding-top: 50px;
+  padding-bottom: 150px;
   /*background-image: url("./data/bg_img/bg1.jpg"); */
   background: #e4ebf5;
   
