@@ -11,7 +11,7 @@ route statistics comparison (speed, number of holds) of your results to local cl
 NFC linking with climbing route  \
 
 ## Libraries used:
-react-player
+react-player \
 react-p5
 
 ## vision
@@ -19,7 +19,9 @@ react-p5
 Imagine you are stuck at a difficult boulder problam,
 you grab a local pro climber, mammut climbax and your smartphone camera
 let the pro climber wear climbax and film his (successfull) attempt at solving the boulder.
+\
 Afterwards you can see which move he made at which position and how he oriented his hands . This should help you in solving it on your own.
+\
 If you then wear the climbax on your attempt and fail, you could get feedback, where your attempt differed from the pro´s solution. This could guide you in one possible solution or show you what is still missing in your training plan
 \
 When you are done solving the boulder, you also have great content to share on your social media with additional info about the route, your hand placement as well as height,
