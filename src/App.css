@@ -1,5 +1,16 @@
 .App {
   text-align: center;
+  background: hsla(197, 100%, 63%, 1);
+
+  background: linear-gradient(90deg, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%);
+
+  background: -moz-linear-gradient(90deg, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%);
+
+  background: -webkit-linear-gradient(90deg, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%);
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#40c9ff", endColorstr="#e81cff", GradientType=1 );
+
 }
 
 div {margin: 0px auto;}
+

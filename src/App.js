@@ -8,8 +8,7 @@ import traverse from "./data/traverse/Traverse (horizontal).mp4";
 
 import VideoSelection from "./components/VideoSelection.js";
 import HandSimulation from "./components/HandSimulation.js";
-import HeightIndicator from "./components/HeightIndicator.js";
-import MoveIndicator from "./components/MoveIndicator.js";
+import MoveAndHeight from "./components/MoveAndHeight.js";
 
 
 function App() {
@@ -44,13 +43,17 @@ function App() {
   return (
     <div className="App">
 
-      <h1> Time: {time} </h1>
+      <h1> Time: {time.toFixed(0)} s</h1>
 
       <div
         className="video-container">
           <ReactPlayer 
             url={videoFilePath} 
             controls={true}
+            height={640}
+            width={360}
+            pip={false}
+            muted={true}
             onProgress={syncT}/>
       </div>
 
@@ -58,9 +61,9 @@ function App() {
         handleVideoChange={handleVideoChange}
       />
             
-      <MoveIndicator />
-
-      <HeightIndicator />
+      <MoveAndHeight 
+        videoOption={videoOption}
+        time={time}/>
 
       <HandSimulation 
         videoOption={videoOption}

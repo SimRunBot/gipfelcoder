@@ -1,7 +1,7 @@
 import React from 'react';
 import Sketch from 'react-p5';
 
-function HandSimulation() {
+function HandSimulation(props) {
   const setup = (p5, canvasParentRef) => {
     p5.createCanvas(500, 400).parent(canvasParentRef);
     
@@ -17,6 +17,7 @@ function HandSimulation() {
     <div 
       className="HandSimulation-Container">
       <Sketch setup={setup} draw={draw} />
+      <h1>{props.time}</h1>
     </div>
   );
 }
