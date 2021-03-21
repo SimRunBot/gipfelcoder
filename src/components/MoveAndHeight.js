@@ -5,16 +5,12 @@ import verticalMoves from "../data/vertical/40587108-e1a8-56ae-8c7f-1853f009b7c6
 import overhangMoves from "../data/overhang/bae8f52c-407e-5f89-a8e3-61fcca51ee0a.json";
 
 function MoveAndHeight(props) {
-  console.log(props.time);
-  console.log(overhangMoves);
-  console.log(traverseMoves);
-  console.log(verticalMoves);
 
-  const currentMove = checkCurrentMove(props.time, props.videoOption);
+  /* const currentMove = checkCurrentMove(props.time, props.videoOption); */
   const currentHeight = checkCurrentHeight(props.time, props.videoOption);
 
 
-  function checkCurrentMove(time, video){
+  /* function checkCurrentMove(time, video){
     switch(video){
       case "vertical":
         console.log(verticalMoves);
@@ -28,7 +24,7 @@ function MoveAndHeight(props) {
         //console.log(overhangMoves);
         break;
     }
-  }
+  } */
 
   function checkCurrentHeight(time, video){
     switch(video){
@@ -66,8 +62,7 @@ function MoveAndHeight(props) {
   return(
     <div
           className="MoveAndHeight-container">
-            <h1>Move: left/right/hold</h1>
-            <h1>Height: {currentHeight} m</h1>
+            <h2>Height: {currentHeight} m</h2>
       </div>
   );
 }

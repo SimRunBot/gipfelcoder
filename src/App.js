@@ -1,10 +1,15 @@
-
+import {Card, Button} from "ui-neumorphism";
+import 'ui-neumorphism/dist/index.css';
 import './App.css';
+
 import React, { useEffect, useState } from 'react';
 import ReactPlayer from 'react-player'
 import vertical from "./data/vertical/Straight Wall (vertical).mp4";
 import overhang from "./data/overhang/Overhang (vertical + horizontal).mp4";
 import traverse from "./data/traverse/Traverse (horizontal).mp4";
+
+import bg1 from "./data/bg_img/bg1.jpg";
+import bg2 from "./data/bg_img/bg2.jpg";
 
 import VideoSelection from "./components/VideoSelection.js";
 import HandSimulation from "./components/HandSimulation.js";
@@ -75,7 +80,7 @@ function App() {
   }
 
   function handleVideoChange(event){
-    switch(event.target.value){
+    switch(event.target.textContent){
       case "vertical":
         setVideoFilePath(vertical);
         setVideoOption("vertical");
@@ -95,32 +100,49 @@ function App() {
   return (
     <div className="App">
 
-      <h1> Time: {time.toFixed(0)} s</h1>
+      <Card
+        width={600}
+        rounded
+        outlined
+        className="MainCard"
+        >
+          
+          <VideoSelection
+            handleVideoChange={handleVideoChange}
+          />
+          <MoveAndHeight 
+            videoOption={videoOption}
+            time={time}/>
 
-      <div
-        className="video-container">
-          <ReactPlayer 
-            url={videoFilePath} 
-            controls={true}
-            height={640}
-            width={360}
-            pip={false}
-            muted={true}
-            onProgress={syncT}/>
-      </div>
+          <h2> Time: {time.toFixed(0)} s</h2>
+          <Card
+            className="Video-Container"
+            rounded
+            elevation={4} 
+            width={400}
+            >
+            <ReactPlayer 
+              url={videoFilePath} 
+              controls={true}
+              height={600}
+              width={360}
+              pip={false}
+              muted={true}
+              onProgress={syncT}/>
+          </Card>
 
-      <VideoSelection
-        handleVideoChange={handleVideoChange}
-      />
-            
-      <MoveAndHeight 
-        videoOption={videoOption}
-        time={time}/>
-
-      <HandSimulation 
-        rotation={rotation}
-        />
-
+          <Card
+            className="Hand-Container"
+            rounded
+            elevation={4} 
+            width={520}
+            >
+            <h3> 3D Hand Position</h3>
+            <HandSimulation 
+              rotation={rotation}
+              />
+          </Card>
+      </Card>
 
     </div>
   );

@@ -28,7 +28,13 @@ When you are done solving the boulder, you also have great content to share on y
 making it easier to understand even for non pro climbers.
 \
 We can imagine a situation in the future where also gyroscope data is analyzed, to recreate a 3d version of the entire route.
-Apart from being an artwork in itself, this could also go hand in hand with climbing gyms mapping their routes and making it a collectible digital item, a fun incentive for climbers to get beat all the routes and carry the trophy digitally in their social media profile, like pokemon badges.
+\
+For that it could also be beneficial experimenting with two more Climbax sensors to track the feet movements as well because climbers rely on every limb to solve a problem and combined with additional gyroscope data this could result in an amazing 3d digital twin of a climbed route.
+\
+Apart from being an artwork in itself, digital route representations could also go hand in hand with climbing gyms using Climbax tracker to map their own routes and implementing a gamification model, where users collect digital route badges once they finish climbing a route.
+\  A fun incentive for climbers to beat all the routes, win all the climbing hall´s badges and compete against the local champions, similar to pokemon ;)
+\
+
 
 ## Create React App
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)

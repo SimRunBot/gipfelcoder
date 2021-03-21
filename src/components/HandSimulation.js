@@ -16,7 +16,7 @@ function HandSimulation(props) {
 
   const setup = (p5, canvasParentRef) => {
     console.log('set up')
-    p5.createCanvas(500, 400, p5.WEBGL).parent(canvasParentRef);
+    p5.createCanvas(500, 200, p5.WEBGL).parent(canvasParentRef);
     p5.angleMode(p5.DEGREES);
     
   }
@@ -30,7 +30,7 @@ function HandSimulation(props) {
     p5.normalMaterial();
     p5.translate(-150,0,0)
     // convention xyz rotation from aerospace
-
+    p5.scale(0.8);
     // AP axis
     p5.rotateX(props.rotation[0] - 90);
     // UR axis
@@ -43,7 +43,7 @@ function HandSimulation(props) {
     p5.normalMaterial();
 
     p5.translate(150,0,0)
-
+    p5.scale(0.8);
     // AP axis
     p5.rotateX(props.rotation[2] - 90);
     // UR axis
