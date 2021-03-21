@@ -8,9 +8,6 @@ import vertical from "./data/vertical/Straight Wall (vertical).mp4";
 import overhang from "./data/overhang/Overhang (vertical + horizontal).mp4";
 import traverse from "./data/traverse/Traverse (horizontal).mp4";
 
-import bg1 from "./data/bg_img/bg1.jpg";
-import bg2 from "./data/bg_img/bg2.jpg";
-
 import VideoSelection from "./components/VideoSelection.js";
 import HandSimulation from "./components/HandSimulation.js";
 import MoveAndHeight from "./components/MoveAndHeight.js";
