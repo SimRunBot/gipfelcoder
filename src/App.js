@@ -10,13 +10,65 @@ import VideoSelection from "./components/VideoSelection.js";
 import HandSimulation from "./components/HandSimulation.js";
 import MoveAndHeight from "./components/MoveAndHeight.js";
 
+import VerticalCsv from './data/vertical/vertical_roll_pitch.csv'
+import TraverseCsv from './data/traverse/traverse_roll_pitch.csv'
+import OverhangCsv from './data/overhang/overhang_roll_pitch.csv'
+
 
 function App() {
+  /* framelocations from pfsx files */
+  const frameLocV = 1707
+  const frameLocT = 1836
+  const frameLocO = 1742
+
+  /* accelerator data */
+  const [dataV, setDataV] = useState();
+  const [dataT, setDataT] = useState();
+  const [dataO, setDataO] = useState();
+
+  /* rotation */
+  const [rotation,setRotation] = useState(["0","0","0","0"]);
+
   /* der time state ist TimeSynchro auf der skizze */
   const [time,setTime] = useState(0);
   const [videoFilePath,setVideoFilePath] = useState(vertical); 
   /* videooption state zum wechseln der 3 daten/videos */
   const [videoOption,setVideoOption] = useState("vertical"); 
+
+  useEffect(() => {
+    getData()
+
+  }, [])
+
+  async function getData() {
+    const responseV = await fetch(VerticalCsv);
+    const responseT = await fetch(TraverseCsv);
+    const responseO = await fetch(OverhangCsv);
+    const _dataV = await responseV.text();
+    const _dataT = await responseT.text();
+    const _dataO = await responseO.text();
+
+    setDataV(_dataV.split(/\n/));
+    setDataT(_dataT.split(/\n/));
+    setDataO(_dataO.split(/\n/));
+
+  } 
+
+  useEffect(() => {
+    if (videoOption == "vertical" && dataV && time) {
+      var row = dataV[Math.floor(time*50)+1+frameLocV].split(',')
+      setRotation(row.slice(1))
+    }
+    if (videoOption == "traverse" && dataT && time) {
+      var row = dataV[Math.floor(time*50)+1+frameLocT].split(',')
+      setRotation(row.slice(1))
+    }
+    if (videoOption == "overhang" && dataO && time) {
+      var row = dataV[Math.floor(time*50)+1+frameLocO].split(',')
+      setRotation(row.slice(1))
+    }
+
+  }, [time, videoOption])
 
   function syncT(newtime){
     setTime(newtime.playedSeconds);
@@ -66,8 +118,7 @@ function App() {
         time={time}/>
 
       <HandSimulation 
-        videoOption={videoOption}
-        time={time}
+        rotation={rotation}
         />
 
 

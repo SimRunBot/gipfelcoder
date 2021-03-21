@@ -1,23 +1,65 @@
 import React from 'react';
 import Sketch from 'react-p5';
+import Hands from '../data/Kung_Fu_Hand_v1_L1/15803_Kung_Fu_Hand_v1.obj'
+import VerticalCsv from '../data/vertical/vertical_roll_pitch.csv'
+import TraverseCsv from '../data/traverse/traverse_roll_pitch.csv'
+import OverhangCsv from '../data/overhang/overhang_roll_pitch.csv'
 
 function HandSimulation(props) {
+
+  var hand;
+
+  const preload = p5 => {
+    console.log('preload')
+    hand = p5.loadModel(Hands, true);
+  }
+
   const setup = (p5, canvasParentRef) => {
-    p5.createCanvas(500, 400).parent(canvasParentRef);
+    console.log('set up')
+    p5.createCanvas(500, 400, p5.WEBGL).parent(canvasParentRef);
+    p5.angleMode(p5.DEGREES);
     
   }
-  var radius = 40;
+
   const draw = p5 => {
-    p5.background(255, 130, 20);
-    p5.ellipse(p5.mouseX, p5.mouseY, radius, radius);
-    p5.ellipse(300, 100, 100);
+
+
+    p5.background(250);
+
+    p5.push();
+    p5.normalMaterial();
+    p5.translate(-150,0,0)
+    // convention xyz rotation from aerospace
+
+    // AP axis
+    p5.rotateX(props.rotation[0] - 90);
+    // UR axis
+    p5.rotateY(props.rotation[1] );
+
+    p5.torus(70, 20);
+    p5.pop();
+
+    p5.push()
+    p5.normalMaterial();
+
+    p5.translate(150,0,0)
+
+    // AP axis
+    p5.rotateX(props.rotation[2] - 90);
+    // UR axis
+    p5.rotateY(props.rotation[3] );
+
+    p5.torus(70, 20);
+    p5.pop();
+
+    
+
   }
   
   return (
     <div 
       className="HandSimulation-Container">
-      <Sketch setup={setup} draw={draw} />
-      <h1>{props.time}</h1>
+      <Sketch setup={setup} draw={draw} preload={preload} />
     </div>
   );
 }
