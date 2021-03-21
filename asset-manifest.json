@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/gipfelcoder/static/css/main.64079879.chunk.css",
-    "main.js": "/gipfelcoder/static/js/main.897cd672.chunk.js",
-    "main.js.map": "/gipfelcoder/static/js/main.897cd672.chunk.js.map",
+    "main.css": "/gipfelcoder/static/css/main.ee3f5a34.chunk.css",
+    "main.js": "/gipfelcoder/static/js/main.536ec828.chunk.js",
+    "main.js.map": "/gipfelcoder/static/js/main.536ec828.chunk.js.map",
     "runtime-main.js": "/gipfelcoder/static/js/runtime-main.9912b70b.js",
     "runtime-main.js.map": "/gipfelcoder/static/js/runtime-main.9912b70b.js.map",
     "static/css/2.f2fc7e91.chunk.css": "/gipfelcoder/static/css/2.f2fc7e91.chunk.css",
@@ -12,14 +12,12 @@
     "static/js/3.e81d6bc9.chunk.js.map": "/gipfelcoder/static/js/3.e81d6bc9.chunk.js.map",
     "index.html": "/gipfelcoder/index.html",
     "static/css/2.f2fc7e91.chunk.css.map": "/gipfelcoder/static/css/2.f2fc7e91.chunk.css.map",
-    "static/css/main.64079879.chunk.css.map": "/gipfelcoder/static/css/main.64079879.chunk.css.map",
+    "static/css/main.ee3f5a34.chunk.css.map": "/gipfelcoder/static/css/main.ee3f5a34.chunk.css.map",
     "static/js/2.62efc8aa.chunk.js.LICENSE.txt": "/gipfelcoder/static/js/2.62efc8aa.chunk.js.LICENSE.txt",
     "static/media/15803_Kung_Fu_Hand_v1.6b94fb90.obj": "/gipfelcoder/static/media/15803_Kung_Fu_Hand_v1.6b94fb90.obj",
     "static/media/Overhang (vertical + horizontal).01f5e8ca.mp4": "/gipfelcoder/static/media/Overhang (vertical + horizontal).01f5e8ca.mp4",
     "static/media/Straight Wall (vertical).e535f08d.mp4": "/gipfelcoder/static/media/Straight Wall (vertical).e535f08d.mp4",
     "static/media/Traverse (horizontal).fa4d4c2a.mp4": "/gipfelcoder/static/media/Traverse (horizontal).fa4d4c2a.mp4",
-    "static/media/bg1.b62bad20.jpg": "/gipfelcoder/static/media/bg1.b62bad20.jpg",
-    "static/media/bg2.2ccbbebe.jpg": "/gipfelcoder/static/media/bg2.2ccbbebe.jpg",
     "static/media/overhang_roll_pitch.9b37f216.csv": "/gipfelcoder/static/media/overhang_roll_pitch.9b37f216.csv",
     "static/media/traverse_roll_pitch.e65f1095.csv": "/gipfelcoder/static/media/traverse_roll_pitch.e65f1095.csv",
     "static/media/vertical_roll_pitch.c1f12ac8.csv": "/gipfelcoder/static/media/vertical_roll_pitch.c1f12ac8.csv"
@@ -28,7 +26,7 @@
     "static/js/runtime-main.9912b70b.js",
     "static/css/2.f2fc7e91.chunk.css",
     "static/js/2.62efc8aa.chunk.js",
-    "static/css/main.64079879.chunk.css",
-    "static/js/main.897cd672.chunk.js"
+    "static/css/main.ee3f5a34.chunk.css",
+    "static/js/main.536ec828.chunk.js"
   ]
 }
