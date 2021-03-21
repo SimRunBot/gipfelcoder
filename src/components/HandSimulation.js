@@ -57,10 +57,9 @@ function HandSimulation(props) {
   }
   
   return (
-    <div 
-      className="HandSimulation-Container">
+    <>
       <Sketch setup={setup} draw={draw} preload={preload} />
-    </div>
+    </>
   );
 }
 

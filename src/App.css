@@ -1,36 +1,23 @@
 .App {
   text-align: center;
   
-  background-image: url("./data/bg_img/bg2.jpg");
-  background: hsla(197, 100%, 63%, 1);
-  /* background: hsla(197, 100%, 63%, 1);
-
-  background: linear-gradient(90deg, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%);
-
-  background: -moz-linear-gradient(90deg, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%);
-
-  background: -webkit-linear-gradient(90deg, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%);
-
-  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#40c9ff", endColorstr="#e81cff", GradientType=1 );
- */
+  /*background-image: url("./data/bg_img/bg1.jpg"); */
+  background: #e4ebf5;
+  
 }
 
 div {margin: 0px auto;}
-
-.VideoSelection-Container{
-  margin: 10px;
-}
 
 .Button{
   margin-left: 20px;
 }
 
-.HandSimulation-Container{
-  margin-top: 10px;
-  margin-bottom: 10px;
+.VideoSelection-Container{
+  
+  padding-top: 20px;
 }
-
-.MainCard{
+.MoveAndHeight-container{
+  padding-top: 10px;
 }
 
 .Video-Container{
@@ -41,7 +28,7 @@ div {margin: 0px auto;}
 
 .Hand-Container{
   padding-top: 5px;
-  padding-bottom: 5px;
+  padding-bottom: 11px;
   margin-top: 30px;
-  margin-bottom: 10px;
 }
+

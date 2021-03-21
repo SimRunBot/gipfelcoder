@@ -103,13 +103,11 @@ function App() {
       <Card
         width={600}
         rounded
-        outlined
-        className="MainCard"
-        >
+        className="MainCard">
           
           <VideoSelection
-            handleVideoChange={handleVideoChange}
-          />
+            handleVideoChange={handleVideoChange}/>
+
           <MoveAndHeight 
             videoOption={videoOption}
             time={time}/>
@@ -119,31 +117,28 @@ function App() {
             className="Video-Container"
             rounded
             elevation={4} 
-            width={400}
-            >
-            <ReactPlayer 
-              url={videoFilePath} 
-              controls={true}
-              height={600}
-              width={360}
-              pip={false}
-              muted={true}
-              onProgress={syncT}/>
+            width={400}>
+              <ReactPlayer 
+                url={videoFilePath} 
+                controls={true}
+                height={600}
+                width={360}
+                pip={false}
+                muted={true}
+                onProgress={syncT}/>
           </Card>
 
           <Card
             className="Hand-Container"
             rounded
             elevation={4} 
-            width={520}
-            >
-            <h3> 3D Hand Position</h3>
-            <HandSimulation 
-              rotation={rotation}
-              />
+            width={520}>
+              <h3> 3D Hand Position</h3>
+              <HandSimulation 
+                rotation={rotation}/>
           </Card>
       </Card>
-
+    
     </div>
   );
 
